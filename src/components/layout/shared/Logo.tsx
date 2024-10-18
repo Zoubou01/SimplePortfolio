@@ -25,20 +25,7 @@ type LogoTextProps = {
   color?: CSSProperties['color']
 }
 
-const LogoText = styled.span<LogoTextProps>`
-  color: 'black';
-  font-size: 1.375rem;
-  line-height: 1.09091;
-  font-weight: 700;
-  letter-spacing: 0.25px;
-  transition: ${({ transitionDuration }) =>
-    `margin-inline-start ${transitionDuration}ms ease-in-out, opacity ${transitionDuration}ms ease-in-out`};
-
-  ${({ isHovered, isCollapsed, isBreakpointReached }) =>
-    !isBreakpointReached && isCollapsed && !isHovered
-      ? 'opacity: 0; margin-inline-start: 0;'
-      : 'opacity: 1; margin-inline-start: 12px;'}
-`
+const LogoText = styled.span<LogoTextProps>``
 
 const Logo = ({ color }: { color: 'black' }) => {
   // Refs
