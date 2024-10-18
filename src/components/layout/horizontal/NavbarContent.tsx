@@ -8,16 +8,10 @@ import NavToggle from './NavToggle'
 import ModeDropdown from '@components/layout/shared/ModeDropdown'
 import UserDropdown from '@components/layout/shared/UserDropdown'
 
-// Hook Imports
-import useHorizontalNav from '@menu/hooks/useHorizontalNav'
-
 // Util Imports
 import { horizontalLayoutClasses } from '@layouts/utils/layoutClasses'
 
 const NavbarContent = () => {
-  // Hooks
-  const { isBreakpointReached } = useHorizontalNav()
-
   return (
     <div
       className={classnames(horizontalLayoutClasses.navbarContent, 'flex items-center justify-between gap-4 is-full')}
