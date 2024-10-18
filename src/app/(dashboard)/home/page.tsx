@@ -1,10 +1,12 @@
 'use client'
-import Portfolio from '@/@menu/components/portfolio/Portfolio'
-import UserDetails from '@/@menu/components/user-details/UserDetails'
+
 import { useState } from 'react'
+
+import Portfolio from '@/@menu/components/portfolio/Portfolio'
 
 export default function Page() {
   const [isOpeningScreenVisible, setOpeningScreenVisible] = useState(false)
+
   setTimeout(() => {
     setOpeningScreenVisible(true)
   }, 500)

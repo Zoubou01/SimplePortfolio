@@ -1,4 +1,5 @@
 import { Card, Grid } from '@mui/material'
+
 import UserDetails from '../user-details/UserDetails'
 import CustomTabs from '../horizontal-menu/CustomTabs'
 import Resume from '../tab-sections/resume'

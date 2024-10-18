@@ -1,4 +1,5 @@
 import { Card, CardContent, Typography } from '@mui/material'
+
 import JobsAccordion from '../jobs-components/accordion'
 
 const JobsSection = () => {

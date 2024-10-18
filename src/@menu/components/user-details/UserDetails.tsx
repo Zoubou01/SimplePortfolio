@@ -1,5 +1,6 @@
-import CustomAvatar from '@/@core/components/mui/Avatar'
 import { Card, CardContent, Chip, Divider, Typography } from '@mui/material'
+
+import CustomAvatar from '@/@core/components/mui/Avatar'
 
 const UserDetails = () => {
   return (

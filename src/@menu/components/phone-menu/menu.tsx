@@ -1,15 +1,19 @@
 'use client'
-import { setMenuState } from '@/store/menuSlice'
-import { Button, Typography } from '@mui/material'
+
 import { useDispatch, useSelector } from 'react-redux'
+
+import { Button, Typography } from '@mui/material'
+
+import { setMenuState } from '@/store/menuSlice'
 
 const PhoneMenu = () => {
   const dispatch = useDispatch()
-  let value = useSelector((state: any) => state.menu.menuState)
+  const value = useSelector((state: any) => state.menu.menuState)
 
   const handleChange = (value: string) => {
     dispatch(setMenuState(value))
   }
+
   return (
     <>
       <div className='phone-menu not-for-screen'>

@@ -1,4 +1,4 @@
-import { Card, CardMedia, CardContent, Typography, Grid } from '@mui/material'
+import { Card, Typography, Grid } from '@mui/material'
 
 const PortfolioSection = () => {
   return (

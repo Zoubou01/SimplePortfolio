@@ -3,15 +3,16 @@
 // React Imports
 import type { SyntheticEvent, ReactElement } from 'react'
 
-// MUI Imports
 import Tab from '@mui/material/Tab'
 import TabContext from '@mui/lab/TabContext'
 import TabPanel from '@mui/lab/TabPanel'
+
 import Grid from '@mui/material/Grid'
 
-// Component Imports
-import CustomTabList from '@core/components/mui/TabList'
 import { useDispatch, useSelector } from 'react-redux'
+
+import CustomTabList from '@core/components/mui/TabList'
+
 import { setMenuState } from '@/store/menuSlice'
 
 const CustomTabs = ({ tabContentList }: { tabContentList: { [key: string]: ReactElement } }) => {

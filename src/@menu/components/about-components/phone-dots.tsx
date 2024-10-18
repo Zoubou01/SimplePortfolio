@@ -2,11 +2,14 @@
 import { useState } from 'react'
 import type { MouseEvent } from 'react'
 
-// MUI Imports
+// @ts-ignore
 import Menu from '@mui/material/Menu'
 import MenuItem from '@mui/material/MenuItem'
 import IconButton from '@mui/material/IconButton'
+
+// @ts-ignore
 import { useDispatch } from 'react-redux'
+
 import { setDotsState } from '@/store/dotsSlice'
 
 const ITEM_HEIGHT = 48
