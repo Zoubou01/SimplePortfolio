@@ -15,7 +15,6 @@ import type { ChildrenType } from '@core/types'
 
 // Component Imports
 import NavHeader from '@menu/components/vertical-menu/NavHeader'
-import Logo from '@components/layout/shared/Logo'
 import NavCollapseIcons from '@menu/components/vertical-menu/NavCollapseIcons'
 
 // Hook Imports
@@ -70,9 +69,7 @@ const VerticalNavContent = ({ children }: ChildrenType) => {
   return (
     <>
       <NavHeader>
-        <Link href='/'>
-          <Logo />
-        </Link>
+        <Link href='/'></Link>
         <NavCollapseIcons
           lockedIcon={<i className='tabler-circle-dot text-xl' />}
           unlockedIcon={<i className='tabler-circle text-xl' />}

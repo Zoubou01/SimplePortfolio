@@ -26,7 +26,7 @@ type LogoTextProps = {
 }
 
 const LogoText = styled.span<LogoTextProps>`
-  color: ${({ color }) => color ?? 'var(--mui-palette-text-primary)'};
+  color: 'black';
   font-size: 1.375rem;
   line-height: 1.09091;
   font-weight: 700;
@@ -40,7 +40,7 @@ const LogoText = styled.span<LogoTextProps>`
       : 'opacity: 1; margin-inline-start: 12px;'}
 `
 
-const Logo = ({ color }: { color?: CSSProperties['color'] }) => {
+const Logo = ({ color }: { color: 'black' }) => {
   // Refs
   const logoTextRef = useRef<HTMLSpanElement>(null)
 
