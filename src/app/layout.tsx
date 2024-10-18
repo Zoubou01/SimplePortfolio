@@ -12,9 +12,8 @@ import '@assets/iconify-icons/generated-icons.css'
 import ReduxProvider from '@/store/redux-provider'
 
 export const metadata = {
-  title: 'Vuexy - MUI Next.js Admin Dashboard Template',
-  description:
-    'Vuexy - MUI Next.js Admin Dashboard Template - is the most developer friendly & highly customizable Admin Dashboard Template based on MUI v5.'
+  title: 'Giannis Zouboulakis',
+  description: 'Giannis Zouboulakis Portfolio'
 }
 
 const RootLayout = ({ children }: ChildrenType) => {
