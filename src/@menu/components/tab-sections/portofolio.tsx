@@ -5,20 +5,40 @@ const PortfolioSection = () => {
     <>
       <Grid container display={'flex'} flexDirection={'row'} justifyContent={'center'}>
         <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
-          <Card sx={{ backgroundColor: 'transparent' }}>
-            <img
-              style={{
-                width: '100%',
-                height: '250px',
-                borderRadius: '20px'
-              }}
-              src='/images/portfolio/pms.png'
-            />
-            <Typography variant='h5'>Property Managment System</Typography>
-            <Typography variant='subtitle1' className='mbe-2'>
-              React, Next, PHP, Angular, Javascript, Typescript
-            </Typography>
-          </Card>
+          <a href='https://travel-buddy-pearl.vercel.app/'>
+            <Card sx={{ backgroundColor: 'transparent' }}>
+              <img
+                style={{
+                  width: '100%',
+                  height: '250px',
+                  borderRadius: '20px'
+                }}
+                src='/images/avatars/airplane.png'
+              />
+              <Typography variant='h5'>Ai Travel Buddy</Typography>
+              <Typography variant='subtitle1' className='mbe-2'>
+                React, NextJS, Typescript
+              </Typography>
+            </Card>
+          </a>
+        </Grid>
+        <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
+          <a href='/'>
+            <Card sx={{ backgroundColor: 'transparent' }}>
+              <img
+                style={{
+                  width: '100%',
+                  height: '250px',
+                  borderRadius: '20px'
+                }}
+                src='/images/portfolio/pms.png'
+              />
+              <Typography variant='h5'>Property Managment System</Typography>
+              <Typography variant='subtitle1' className='mbe-2'>
+                React, Next, PHP, Angular, Javascript, Typescript
+              </Typography>
+            </Card>
+          </a>
         </Grid>
         <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
           <Card sx={{ backgroundColor: 'transparent' }}>
@@ -113,22 +133,6 @@ const PortfolioSection = () => {
               src='/images/avatars/land.jpg'
             />
             <Typography variant='h5'>Simple Blog Website</Typography>
-            <Typography variant='subtitle1' className='mbe-2'>
-              React, Javascript
-            </Typography>
-          </Card>
-        </Grid>
-        <Grid sx={{ padding: '1rem' }} item xs={10} sm={8} xl={5} lg={5} md={5}>
-          <Card sx={{ backgroundColor: 'transparent' }}>
-            <img
-              style={{
-                width: '100%',
-                height: '250px',
-                borderRadius: '20px'
-              }}
-              src='/images/avatars/land.jpg'
-            />
-            <Typography variant='h5'>Simple Register Form</Typography>
             <Typography variant='subtitle1' className='mbe-2'>
               React, Javascript
             </Typography>
