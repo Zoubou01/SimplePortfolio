@@ -14,7 +14,7 @@ const ProfessionalExperience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <Typography className='font-medium' sx={{ color: '#e1def5e6' }}>
-                FrontEnd Developer WebHotelier
+                Fullstack Developer @ WebHotelier
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
                 Jan 2024 - Present
@@ -28,7 +28,7 @@ const ProfessionalExperience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <Typography className='font-medium' sx={{ color: '#e1def5e6' }}>
-                FullStack Developer Loggia Studios
+                FullStack Developer @ Loggia Studios
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
                 Jan 2023 - Jan 2024
@@ -42,7 +42,7 @@ const ProfessionalExperience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <Typography className='font-medium' sx={{ color: '#e1def5e6' }}>
-                Fullstack Developer / Project Manager 8Essentially
+                Software Engineer @ 8Essentially
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
                 Sept 2023 - Jan 2023
@@ -56,10 +56,10 @@ const ProfessionalExperience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <Typography className='font-medium' sx={{ color: '#e1def5e6' }}>
-                Fullstack Developer / Project Manager 8Essentially
+                Software Engineer @ Conveos
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
-                Sept 2023 - Jan 2023
+                January 2022 - December 2022
               </Typography>
             </TimelineContent>
           </TimelineItem>
@@ -70,10 +70,24 @@ const ProfessionalExperience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <Typography className='font-medium' sx={{ color: '#e1def5e6' }}>
-                Internship Conveos
+                Web Developer @ Universe Core
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
-                July 2023 - August 2023
+                January 2020 - September 2021
+              </Typography>
+            </TimelineContent>
+          </TimelineItem>
+          <TimelineItem position='right'>
+            <TimelineSeparator>
+              <TimelineDot sx={{ backgroundColor: '#9e2e2e' }} />
+              <TimelineConnector sx={{ width: '1px', backgroundColor: '#9e2e2e' }} />
+            </TimelineSeparator>
+            <TimelineContent>
+              <Typography className='font-medium' sx={{ color: '#e1def5e6' }}>
+                Web Developer @ Styloola
+              </Typography>
+              <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
+                July 2017 - August 2019
               </Typography>
             </TimelineContent>
           </TimelineItem>

@@ -10,9 +10,7 @@ import VerticalLayout from '@layouts/VerticalLayout'
 // Component Imports
 import Providers from '@components/Providers'
 import ScrollToTop from '@core/components/scroll-to-top'
-
-// Util Imports
-import PhoneMenu from '@/@menu/components/phone-menu/menu'
+import HamburgerWrapper from '@/components/layout/shared/HamburgerWrapper'
 
 const Layout = async ({ children }: ChildrenType) => {
   // Vars
@@ -20,8 +18,8 @@ const Layout = async ({ children }: ChildrenType) => {
 
   return (
     <Providers direction={direction}>
+      <HamburgerWrapper />
       <VerticalLayout>{children}</VerticalLayout>
-      <PhoneMenu />
 
       <ScrollToTop className='mui-fixed'>
         <Button

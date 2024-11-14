@@ -58,7 +58,7 @@ ul:not([class]) {
 
 @media (max-width: 759px) {
   .text-auto {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
