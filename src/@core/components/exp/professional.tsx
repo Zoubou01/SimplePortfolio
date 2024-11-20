@@ -42,10 +42,10 @@ const ProfessionalExperience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <Typography className='font-medium' sx={{ color: '#e1def5e6' }}>
-                Software Engineer @ 8Essentially
+                Software Engineer @ Conveos
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
-                Sept 2023 - Jan 2023
+                January 2022 - December 2022
               </Typography>
             </TimelineContent>
           </TimelineItem>
@@ -56,10 +56,10 @@ const ProfessionalExperience = () => {
             </TimelineSeparator>
             <TimelineContent>
               <Typography className='font-medium' sx={{ color: '#e1def5e6' }}>
-                Software Engineer @ Conveos
+                Software Engineer @ 8essentially
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
-                January 2022 - December 2022
+                September 2021 - December 2021
               </Typography>
             </TimelineContent>
           </TimelineItem>
