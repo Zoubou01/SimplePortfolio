@@ -45,7 +45,7 @@ const ProfessionalExperience = () => {
                 Software Engineer @ Conveos
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
-                January 2022 - December 2022
+                July 2021 - December 2022
               </Typography>
             </TimelineContent>
           </TimelineItem>
@@ -59,7 +59,7 @@ const ProfessionalExperience = () => {
                 Software Engineer @ 8essentially
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
-                September 2021 - December 2021
+                September 2021 - July 2021
               </Typography>
             </TimelineContent>
           </TimelineItem>
@@ -73,21 +73,7 @@ const ProfessionalExperience = () => {
                 Web Developer @ Universe Core
               </Typography>
               <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
-                January 2020 - September 2021
-              </Typography>
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem position='right'>
-            <TimelineSeparator>
-              <TimelineDot sx={{ backgroundColor: '#9e2e2e' }} />
-              <TimelineConnector sx={{ width: '1px', backgroundColor: '#9e2e2e' }} />
-            </TimelineSeparator>
-            <TimelineContent>
-              <Typography className='font-medium' sx={{ color: '#e1def5e6' }}>
-                Web Developer @ Styloola
-              </Typography>
-              <Typography variant='caption' sx={{ color: '#9e2e2e' }}>
-                July 2017 - August 2019
+                July 2019 - August 2021
               </Typography>
             </TimelineContent>
           </TimelineItem>

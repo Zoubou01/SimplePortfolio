@@ -35,7 +35,7 @@ const UserDetails = () => {
               </CustomAvatar>
               <div>
                 <Typography variant='h5' color={'#e1def5e6'}>
-                  3+ years
+                  6+ years
                 </Typography>
                 <Typography color={'#e1def5e6'}>Experience</Typography>
               </div>
